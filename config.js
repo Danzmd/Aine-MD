@@ -38,7 +38,8 @@ global.APIKeys = { // APIKey Here
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 
 const spack = fs.readFileSync("lib/exif.json")
-const stickerpack = JSON.parse(spack)
+const stickerpack = JS
+ON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = '@Danzz_bot'
   var sticker_author = 'Danzz bot'
