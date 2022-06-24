@@ -1,8 +1,9 @@
 let fs = require('fs') 
 let chalk = require('chalk')
+const danzz = JSON.parse(fs.readFileSync('./lib/aine1.json'))
 
 global.owner = [
-  ['6283171382342', 'Creator', true],
+  [danzz.opw],
   ['6289523573658', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
