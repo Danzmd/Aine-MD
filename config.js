@@ -4,7 +4,7 @@ const danzz = JSON.parse(fs.readFileSync('./lib/aine1.json'))
 
 global.owner = [
   [xyra.opw],
-  ['6282197940309', 'Owner', true]
+  ['6285342755780', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -40,8 +40,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@xyra_bot'
-  var sticker_author = 'xyra bot'
+  var sticker_name = '@Ryu_bot'
+  var sticker_author = 'Ryu bot'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -58,7 +58,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '© xyra bot'
+global.wm = '© Ryu bot'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
